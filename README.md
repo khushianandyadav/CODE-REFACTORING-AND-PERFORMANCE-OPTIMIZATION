@@ -8,7 +8,8 @@
 
 # DESCRIPTION
 
-Refactoring an open-source project like the given code can significantly improve its readability and performance. Let's break down the provided Java code, analyze its current state, and make necessary improvements.
+Refactoring an open-source project like the given code can significantly improve its readability and performance. Here's the breakdown of the Java code, its analysis, and what improvements I have made.
+
 
  Original Code Structure
 
@@ -118,7 +119,7 @@ public class Store {
 }
 
 
- Explanation of Refactoring
+ Refactoring
 
 1. Encapsulation: 
     The fields in Product are now private, and accessor methods (getters) are provided for external access.
@@ -131,4 +132,4 @@ public class Store {
 3. Performance:
     The refactored code avoids redundant calculations by computing discounts once and reusing the computed values.
 
-By refactoring the code, we achieve cleaner, more maintainable, and efficient code, enhancing both its readability and performance. This approach ensures that the code is easier to understand, extend, and debug, ultimately leading to better software development practices.
+By refactoring the code, cleaner, more maintainable, and efficient code is achieved, enhancing both its readability and performance. This approach ensures that the code is easier to understand, extend, and debug, ultimately leading to better software development practices.
